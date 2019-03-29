@@ -1,0 +1,41 @@
+page-home {
+ 
+      #navtxt{
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Changa', sans-serif;
+        padding-right: 50px;
+    }
+    .shadwSlid{
+      box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    }
+      .back{
+          background-image: url(../../assets/imgs/back.png);
+      }
+      .homeimg{
+          padding: 0px;
+      }
+      a:link, a:visited {
+        color: white;
+        padding: 14px 25px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.6rem;
+        font-family: 'Changa', sans-serif;
+      }
+      
+      a:hover, a:active {
+        background-color: rgb(255, 255, 255);
+        color:black;
+      }
+
+      .aslid:hover, .aslid:active {
+        background-color: rgb(255, 255, 255);
+        color:black;
+      }
+
+    .hh{
+         border-bottom: solid 1px rgb(0, 0, 0) ;
+    }
+    
+}

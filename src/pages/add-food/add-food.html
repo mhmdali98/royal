@@ -1,0 +1,48 @@
+
+<ion-header>
+  <ion-navbar color="navdark">
+    <ion-title id="navtxt">وجبة همبركر</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="back">
+
+  <img src="../../assets/imgs/img1.png">
+
+  <h5>قطعة همبركر لحم + فنكر + ببسي </h5>
+
+  <div class="butadd">
+  <button ion-button icon-only color="navdark" large (click)="rem()">
+    <ion-icon name="remove"></ion-icon>
+  </button>
+
+    <button ion-button icon-only color="navdark" large>
+      {{i}}
+   </button>
+
+  <button ion-button icon-only color="navdark" large (click)="add()">
+    <ion-icon name="add"></ion-icon>
+  </button>
+  </div>
+<br>
+  <ion-list radio-group [(ngModel)]="relationship">
+    <ion-item color="navdark">
+      <ion-label>بدون جبن  <h3>5000 دع</h3></ion-label>
+     
+      <ion-radio value="1" checked></ion-radio>
+    </ion-item>
+    <ion-item color="navdark">
+      <ion-label>مع جبن  <h3>6000 دع</h3></ion-label>
+      <ion-radio value="2"></ion-radio>
+    </ion-item>
+  </ion-list>
+<ion-list>
+  <ion-item color="navdark" >
+    <ion-textarea placeholder="اضافة تفاصيل عن الطلب" large text-right></ion-textarea>
+  </ion-item>
+</ion-list>
+
+<button ion-button full large color="navdark">اضافه الى سلة الطلبات</button>
+
+
+</ion-content>

@@ -1,0 +1,44 @@
+page-menu-food {
+
+    #navtxt{
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Changa', sans-serif;   
+        padding-right:50px; 
+    }
+    .back{
+        background-image: url(../../assets/imgs/back.png);
+    }
+   h6{
+       color:white;
+   }
+   #slide-image{
+       height: 100px;
+   }
+
+   .hh{
+    border-bottom: solid 1px rgb(0, 0, 0) ;
+   }
+   a:link, a:visited {
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Changa', sans-serif;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(255, 255, 255);
+    color:black;
+  }
+
+  .aslid:hover, .aslid:active {
+    background-color: rgb(255, 255, 255);
+    color:black;
+  }
+ h3{
+   color:rgb(212, 212, 78);
+   padding: 0px 10px;
+ }
+}
